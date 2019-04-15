@@ -21,7 +21,7 @@ oclint-json-compilation-database -e Pods --  -report-type html -o $reportFilePat
 -rc SHORT_VARIABLE_NAME=1 \
 -rc MAXIMUM_IF_LENGTH=5 \
 -rc MINIMUM_CASES_IN_SWITCH=2 \
--rc LONG_METHOD=80
+-rc LONG_METHOD=80 \
 -rc NCSS_METHOD=30 \
 -rc LONG_LINE=180 \
 -rc LONG_CLASS=1000 \
